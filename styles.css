@@ -1,0 +1,41 @@
+body {
+    background-image: url("assets/netflix-featured.webp");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-color: black;
+   }
+
+.navbar {
+    background-color: transparent;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-family: 'Netflix Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #e5e5e5
+}
+
+a:hover {
+    color: #b3b3b3;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+#pfp {
+    height: 50%;
+    width: 50%;
+    filter: invert(100%);
+}
+
+#notif-icon {
+    filter: invert(100%);
+}
+
+#featured {
+    position: relative;
+    
+}
