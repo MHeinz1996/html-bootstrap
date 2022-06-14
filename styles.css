@@ -36,6 +36,35 @@ a:hover {
 }
 
 #featured {
-    position: relative;
-    
+    margin-top: 5vh;
+    margin-left: 0;
+    padding: 5vw;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+/* #featured-logo {
+    height: 1vh;
+    width: 1vw;
+} */
+
+#featured-info {
+    color: #fff;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    font-size: 1.2vw;
+    margin-top: 0.1vw;
+}
+
+#featured-logo {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+#featured-play {
+    width: 122px;
+    height: 40px;
 }
