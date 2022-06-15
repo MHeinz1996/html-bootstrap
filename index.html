@@ -12,7 +12,7 @@
     <link rel="icon" href="assets/netflix_favicon.png">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="#"><img id="nav-logo"  src="assets/netflix_logo_icon_170918.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -47,7 +47,7 @@
                 </li>
             </ul>
             <div class="dropdown">
-                <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn btn-transparent" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <img id="notif-icon" src="assets/notification_bell.png">
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <img id="pfp" src="assets/profile_icon.png">
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -72,21 +72,166 @@
         </div>
     </nav>
     <div id="featured" class="container">
-        <img id="featured-logo" src="assets/netflix-featured-title.webp">
-        <div id="featured-info" class="row">
-            Multiple generations of the Joestar family -- all with the same
+        <img id="featured-logo" class="logo-size" src="assets/netflix-featured-title.webp">
+        <div id="featured-info" class="row col-5">
+            Multiple generations of the Joestar family -- all with the same nickname -- confront supernatural villains through a series of time periods.
         </div>
-        <div id="featured-info" class="row">
-            nickname -- confront supernatural villains through a series of
+    <div id="featured-buttons" class="container">
+      <div class="row justify-content-left">
+        <div class="col-2">
+          <button id="featured-play" type="button" class="btn btn-light"><img src="assets/play-button.png"> Play</button>
         </div>
-        <div id="featured-info" class="row">
-            time periods.
-        </div>        
+        <div class="col-2"><button id="featured-play" type="button" class="btn btn-secondary opaque"><img id="info" src="assets/info-button.png"> More Info</button></div>
+      </div>
     </div>
-    <div class="container">
-      <button id="featured-play" type="button" class="btn btn-light">▷ Play</button>
-    </div>
-      
+
+    <div class="container-fluid netflix-cards">
+      <div class="col netflix-cards-titles">Popular on Netflix</div>
+    
+      <div class="card-deck netflix-cards-titles">
+        <!-- First Card -->
+            <div class="card card-size">
+                <div class="card-title">Title here</div>
+                <div class="card-body">Body here</div>
+            </div>
+        <!-- Second Card -->
+            <div class="card card-size">
+                <div class="card-title">Title here</div>
+                <div class="card-body">Body here</div>
+            </div>
+        <!-- Third Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+        <!-- Fourth Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+        <!-- Fifth Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+        <!-- Sixth Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+      </div>
+    </div> 
+
+    <div class="container-fluid netflix-cards">
+      <div class="col netflix-cards-titles">Trending Now</div>
+    
+      <div class="card-deck netflix-cards-titles">
+        <!-- First Card -->
+            <div class="card card-size">
+                <div class="card-title">Title here</div>
+                <div class="card-body">Body here</div>
+            </div>
+        <!-- Second Card -->
+            <div class="card card-size">
+                <div class="card-title">Title here</div>
+                <div class="card-body">Body here</div>
+            </div>
+        <!-- Third Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+        <!-- Fourth Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+        <!-- Fifth Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+        <!-- Sixth Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+      </div>
+    </div> 
+
+    <div class="container-fluid netflix-cards">
+      <div class="col netflix-cards-titles">Documentaries</div>
+    
+      <div class="card-deck netflix-cards-titles">
+        <!-- First Card -->
+            <div class="card card-size">
+                <div class="card-title">Title here</div>
+                <div class="card-body">Body here</div>
+            </div>
+        <!-- Second Card -->
+            <div class="card card-size">
+                <div class="card-title">Title here</div>
+                <div class="card-body">Body here</div>
+            </div>
+        <!-- Third Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+        <!-- Fourth Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+        <!-- Fifth Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+        <!-- Sixth Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+      </div>
+    </div> 
+
+    <div class="container-fluid netflix-cards">
+      <div class="col netflix-cards-titles">Award-Winning TV Shows</div>
+    
+      <div class="card-deck netflix-cards-titles">
+        <!-- First Card -->
+            <div class="card card-size">
+                <div class="card-title">Title here</div>
+                <div class="card-body">Body here</div>
+            </div>
+        <!-- Second Card -->
+            <div class="card card-size">
+                <div class="card-title">Title here</div>
+                <div class="card-body">Body here</div>
+            </div>
+        <!-- Third Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+        <!-- Fourth Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+        <!-- Fifth Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+        <!-- Sixth Card -->
+            <div class="card card-size">
+              <div class="card-title">Title here</div>
+              <div class="card-body">Body here</div>
+            </div>
+      </div>
+    </div> 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
